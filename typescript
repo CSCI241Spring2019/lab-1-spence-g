@@ -1,0 +1,507 @@
+Script started on Thu 18 Apr 2019 01:21:37 PM PDT
+gaffins@cf162-03:~$ # Accidentally closed terminal and it didn't record anything 1st try,[K
+gaffins@cf162-03:~$ # Commented out some commands to avoid duplicates
+gaffins@cf162-03:~$ # mk [Kdir CSCI241
+gaffins@cf162-03:~$ cd CSCI21[K41
+gaffins@cf162-03:~/CSCI241$ ls
+assignment-1-spence-g  lab-1-spence-g
+gaffins@cf162-03:~/CSCI241$ # git clone https://github.com/CSCI241Spring2019/lab-1-spence-[K-g
+gaffins@cf162-03:~/CSCI241$ ls
+assignment-1-spence-g  lab-1-spence-g
+gaffins@cf162-03:~/CSCI241$ git config --global user.name "Spencer Gaffin"
+gaffins@cf162-03:~/CSCI241$ git config --global user.email gaffins@wwu.edu
+gaffins@cf162-03:~/CSCI241$ # touch writeuo.txt[1Po.txt[C[1P.txtu.txtp.txt[C[C[C[C
+gaffins@cf162-03:~/CSCI241$ git add writeuo[Kp.txt
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+gaffins@cf162-03:~/CSCI241$ cd lab-1-spence-h[Kg
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git add writeup.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ 
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git commit -m "Added empty writeup (attempt 2)"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31msrc/main/java/lab1/.gradle/[m
+
+nothing added to commit but untracked files present
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': spence-g
+Password for 'https://spence-g@github.com': 
+Everything up-to-date
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ vi writeup.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;46r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[46;1H"writeup.txt" 3L, 85C[>c[1;1H1) Spencer Gaffin
+2) Hobby: CS labs
+3) Favorite song: I Gotta Go by Robert Earl Keen
+[94m~                                                                                                        [5;1H~                                                                                                        [6;1H~                                                                                                        [7;1H~                                                                                                        [8;1H~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll]2;writeup.txt (~/CSCI241/lab-1-spence-g) - VIM]1;writeup.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H1) Spencer Gaffin
+2) Hobby: CS labs
+3) Favorite song: I Gotta Go by Robert Earl Keen
+[94m~                                                                                                        [5;1H~                                                                                                        [6;1H~                                                                                                        [7;1H~                                                                                                        [8;1H~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll"writeup.txt" 3L, 85C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[46;1H[1m-- INSERT --[m[46;13H[K[46;88H1,1[11CAll[1;1H[?12l[?25h[?25l[46;90H2[1;2H[?12l[?25h[?25l[46;90H3[1;3H[?12l[?25h[?25l[46;90H4[1;4H[?12l[?25h[?25l[46;90H5[1;5H[?12l[?25h[?25l[46;90H6[1;6H[?12l[?25h[?25l[46;90H7[1;7H[?12l[?25h[?25l[46;90H8[1;8H[?12l[?25h[?25l[46;90H9[1;9H[?12l[?25h[?25l[46;90H10[1;10H[?12l[?25h[?25l[46;91H1[1;11H[?12l[?25h[?25l[46;91H2[1;12H[?12l[?25h[?25l[46;91H3[1;13H[?12l[?25h[?25l[46;91H4[1;14H[?12l[?25h[?25l[46;91H5[1;15H[?12l[?25h[?25l[46;91H6[1;16H[?12l[?25h[?25l[46;91H7[1;17H[?12l[?25h[?25ln[1;17H[K[46;91H6]2;writeup.txt + (~/CSCI241/lab-1-spence-g) - VIM]1;writeup.txt[1;16H[?12l[?25h[?25lnn[46;91H7[1;17H[?12l[?25h[?25l[1;17H[K[46;91H6[1;16H[?12l[?25h[?25l[46;91H7[1;17H[?12l[?25h[?25l[1;16H[K[46;91H6[1;16H[?12l[?25h[?25li[46;91H7[1;17H[?12l[?25h[?25ln[46;91H8[1;18H[?12l[?25h[46;1H[K[1;17H[?25l[46;88H1,17[10CAll[1;17H[?12l[?25h[?25l[46;88H[K[46;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"writeup.txt" 3L, 85C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049lgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git add writeup.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git commit -m "Re-added names[K[K[K[K[Kpart 1 (names) to fix mistake"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31msrc/main/java/lab1/.gradle/[m
+
+nothing added to commit but untracked files present
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ ls
+build  build.gradle  src  username.txt	writeup.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ vi username.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;46r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[46;1H"username.txt" 1L, 32C[>c[1;1HSpencer Gaffin,gaffins,spence-g
+[94m~                                                                                                        [3;1H~                                                                                                        [4;1H~                                                                                                        [5;1H~                                                                                                        [6;1H~                                                                                                        [7;1H~                                                                                                        [8;1H~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll]2;username.txt (~/CSCI241/lab-1-spence-g) - VIM]1;username.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HSpencer Gaffin,gaffins,spence-g
+[94m~                                                                                                        [3;1H~                                                                                                        [4;1H~                                                                                                        [5;1H~                                                                                                        [6;1H~                                                                                                        [7;1H~                                                                                                        [8;1H~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll"username.txt" 1L, 32C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[46;90H2[1;2H[?12l[?25h[?25l[46;90H3[1;3H[?12l[?25h[?25l[46;90H4[1;4H[?12l[?25h[?25l[46;90H5[1;5H[?12l[?25h[?25l[46;90H6[1;6H[?12l[?25h[?25l[46;90H7[1;7H[?12l[?25h[?25l[46;90H8[1;8H[?12l[?25h[?25l[46;90H9[1;9H[?12l[?25h[?25l[46;90H10[1;10H[?12l[?25h[?25l[46;91H1[1;11H[?12l[?25h[?25l[46;91H2[1;12H[?12l[?25h[?25l[46;91H3[1;13H[?12l[?25h[?25l[46;91H4[1;14H[?12l[?25h[?25l[46;91H5[1;15H[?12l[?25h[?25l[46;91H6[1;16H[?12l[?25h[?25l[46;91H7[1;17H[?12l[?25h[?25l[46;91H8[1;18H[?12l[?25h[?25l[46;91H9[1;19H[?12l[?25h[?25l[46;90H20[1;20H[?12l[?25h[?25l[46;91H1[1;21H[?12l[?25h[?25l[46;91H2[1;22H[?12l[?25h[?25l[46;91H3[1;23H[?12l[?25h[?25l[46;91H4[1;24H[?12l[?25h[?25l[46;91H5[1;25H[?12l[?25h[?25l[46;91H6[1;26H[?12l[?25h[?25l[46;91H7[1;27H[?12l[?25h[?25l[46;91H8[1;28H[?12l[?25h[?25l[46;91H9[1;29H[?12l[?25h[?25l[46;90H30[1;30H[?12l[?25h[?25l[46;91H1[1;31H[?12l[?25h[?25l[46;91H0[1;30H[?12l[?25h[?25l[46;91H1[1;31H[?12l[?25h[?25l[46;1H[1m-- INSERT --[m[46;13H[K[46;88H1,31[10CAll[1;31H[?12l[?25h[?25l[46;91H2[1;32H[?12l[?25h[?25l[1;31H[K[46;91H1]2;username.txt + (~/CSCI241/lab-1-spence-g) - VIM]1;username.txt[1;31H[?12l[?25h[?25lg[46;91H2[1;32H[?12l[?25h[46;1H[K[1;31H[?25l[46;88H1,31[10CAll[1;31H[?12l[?25h[?25l[46;88H[K[46;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"username.txt" 1L, 32C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049lgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ commit -[Kusername.txt
+commit: command not found
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git commit username.txt
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31msrc/main/java/lab1/.gradle/[m
+
+nothing added to commit but untracked files present
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git checkout writeup.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git reset writeuptxt.txt[C[C[C
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ vi writeup.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;46r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[46;1H"writeup.txt" 3L, 85C[>c[1;1H1) Spencer Gaffin
+2) Hobby: CS labs
+3) Favorite song: I Gotta Go by Robert Earl Keen
+[94m~                                                                                                        [5;1H~                                                                                                        [6;1H~                                                                                                        [7;1H~                                                                                                        [8;1H~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll]2;writeup.txt (~/CSCI241/lab-1-spence-g) - VIM]1;writeup.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H1) Spencer Gaffin
+2) Hobby: CS labs
+3) Favorite song: I Gotta Go by Robert Earl Keen
+[94m~                                                                                                        [5;1H~                                                                                                        [6;1H~                                                                                                        [7;1H~                                                                                                        [8;1H~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll"writeup.txt" 3L, 85C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[46;1H[K[46;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"writeup.txt" 3L, 85C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049lgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ touch t[Kdummyf[K.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ ls
+build  build.gradle  dummy.txt	src  username.txt  writeup.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ mv dummy.y[Kxtt.xt[1P.xt[Ctxt[C[C
+mv: missing destination file operand after 'dummy.txt'
+Try 'mv --help' for more information.
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ mv --help
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help     display this help and exit
+      --version  output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ mv dummy.txt test.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ s
+s: command not found
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ ls
+build  build.gradle  src  test.txt  username.txt  writeup.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ got [K[K[Kit rm test.txt
+fatal: pathspec 'test.txt' did not match any files
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ rm test.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ ls
+build  build.gradle  src  username.txt	writeup.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git bame [K[K[K[Klame writeup.txt
+[?1h=1a8c2146 (Spencer Gaffin 2019-04-11 10:58:02 -0700 1) 1) Spencer Gaffin[m
+1a8c2146 (Spencer Gaffin 2019-04-11 10:58:02 -0700 2) 2) Hobby: CS labs[m
+1a8c2146 (Spencer Gaffin 2019-04-11 10:58:02 -0700 3) 3) Favorite song: I Gotta Go by Robert Earl Keen[m
+[K[?1l>gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git log
+[?1h=[33mcommit 6cfbd0d76c7aea122a225a21e214deb01571923c[m[m
+Author: Spencer Gaffin <gaffins@wwu.edu>[m
+Date:   Thu Apr 11 11:49:39 2019 -0700[m
+[m
+    Hello now prints command line arg[m
+[m
+[33mcommit 1a8c2146da042d9a5623b7668bbf652101af204f[m[m
+Author: Spencer Gaffin <gaffins@wwu.edu>[m
+Date:   Thu Apr 11 10:58:02 2019 -0700[m
+[m
+    Added favorite song[m
+[m
+[33mcommit 86e4f084da5d4d2fc71535eed637395fd07e9be1[m[m
+Author: Spencer Gaffin <gaffins@wwu.edu>[m
+Date:   Thu Apr 11 10:47:52 2019 -0700[m
+[m
+    Added name and usernames[m
+[m
+[33mcommit 0afeea0b145a02ee3be9b2c1fb4d6bd5faa6860a[m[m
+Author: Spencer Gaffin <gaffins@wwu.edu>[m
+Date:   Thu Apr 11 10:43:40 2019 -0700[m
+[m
+    Added part 2 (hobby) to writeup[m
+[m
+[33mcommit 6966727bf72d3023a06b4be1d2678992e7dd3640[m[m
+Author: Spencer Gaffin <gaffins@wwu.edu>[m
+Date:   Thu Apr 11 10:39:28 2019 -0700[m
+[m
+    Added part 1 (names to writeup[m
+[m
+[33mcommit 9f3804a004701c509fef3a0788375fef3e975384[m[m
+Author: Spencer Gaffin <gaffins@wwu.edu>[m
+Date:   Thu Apr 11 10:06:34 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[K[?1l>gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git diff
+[?1h=[K[?1l>gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git diff writeup.txt
+[?1h=[K[?1l>gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git checkout -b question3
+Switched to a new branch 'question3'
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ vi writeup.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;46r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[46;1H"writeup.txt" 3L, 85C[>c[1;1H1) Spencer Gaffin
+2) Hobby: CS labs
+3) Favorite song: I Gotta Go by Robert Earl Keen
+[94m~                                                                                                        [5;1H~                                                                                                        [6;1H~                                                                                                        [7;1H~                                                                                                        [8;1H~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll]2;writeup.txt (~/CSCI241/lab-1-spence-g) - VIM]1;writeup.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H1) Spencer Gaffin
+2) Hobby: CS labs
+3) Favorite song: I Gotta Go by Robert Earl Keen
+[94m~                                                                                                        [5;1H~                                                                                                        [6;1H~                                                                                                        [7;1H~                                                                                                        [8;1H~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll"writeup.txt" 3L, 85C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[46;88H2[2;1H[?12l[?25h[?25l[46;1H[1m-- INSERT --[m[46;13H[K[46;88H2,1[11CAll[2;1H[?12l[?25h[?25l[46;88H3[3;1H[?12l[?25h[?25l[46;90H2[3;2H[?12l[?25h[?25l[46;90H3[3;3H[?12l[?25h[?25l[46;90H4[3;4H[?12l[?25h[?25l[46;90H5[3;5H[?12l[?25h[?25l[46;90H6[3;6H[?12l[?25h[?25l[46;90H7[3;7H[?12l[?25h[?25l[46;90H8[3;8H[?12l[?25h[?25l[46;90H9[3;9H[?12l[?25h[?25l[46;90H10[3;10H[?12l[?25h[?25l[46;91H1[3;11H[?12l[?25h[?25l[46;91H2[3;12H[?12l[?25h[?25l[46;91H3[3;13H[?12l[?25h[?25l[46;91H4[3;14H[?12l[?25h[?25l[46;91H5[3;15H[?12l[?25h[?25l[46;91H6[3;16H[?12l[?25h[?25l[46;91H7[3;17H[?12l[?25h[?25l[46;91H8[3;18H[?12l[?25h[?25l[46;91H9[3;19H[?12l[?25h[?25l[46;90H20[3;20H[?12l[?25h[?25l[46;91H1[3;21H[?12l[?25h[?25l[46;91H2[3;22H[?12l[?25h[?25l[46;91H3[3;23H[?12l[?25h[?25l[46;91H4[3;24H[?12l[?25h[?25l[46;91H5[3;25H[?12l[?25h[?25l[46;91H6[3;26H[?12l[?25h[?25l[46;91H7[3;27H[?12l[?25h[?25l[46;91H8[3;28H[?12l[?25h[?25l[46;91H9[3;29H[?12l[?25h[?25l[46;90H30[3;30H[?12l[?25h[?25l[46;91H1[3;31H[?12l[?25h[?25l[46;91H2[3;32H[?12l[?25h[?25l[46;91H3[3;33H[?12l[?25h[?25l[46;91H4[3;34H[?12l[?25h[?25l[46;91H5[3;35H[?12l[?25h[?25l[46;91H6[3;36H[?12l[?25h[?25l[46;91H7[3;37H[?12l[?25h[?25l[46;91H8[3;38H[?12l[?25h[?25l[46;91H9[3;39H[?12l[?25h[?25l[46;90H40[3;40H[?12l[?25h[?25l[46;91H1[3;41H[?12l[?25h[?25l[46;91H2[3;42H[?12l[?25h[?25l[46;91H3[3;43H[?12l[?25h[?25l[46;91H4[3;44H[?12l[?25h[?25l[46;91H5[3;45H[?12l[?25h[?25l[46;91H6[3;46H[?12l[?25h[?25l[46;91H7[3;47H[?12l[?25h[?25l[46;91H8[3;48H[?12l[?25h[?25l[46;91H9[3;49H[?12l[?25h[?25l[3;48H[K[46;91H8]2;writeup.txt + (~/CSCI241/lab-1-spence-g) - VIM]1;writeup.txt[3;48H[?12l[?25h[?25ln[46;91H9[3;49H[?12l[?25h[46;1H[K[3;48H[?25l[46;88H3,48[10CAll[3;48H[?12l[?25h[?25l[46;88H[K[46;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"writeup.txt" 3L, 85C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049lgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git checkout mase[Kter
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git merge question3
+Already up-to-date.
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ gradle build
+[0mStarting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon > Connecting to Daemon[m[40D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/gaffins/CSCI241/lab-1-spence-g/build.gradle into local compilation cach[m[104D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 21% EXECUTING [2s][m[34D[1B[1m> :jar[m[0K[6D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 4s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ ls
+build  build.gradle  src  username.txt	writeup.txt
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ src
+No command 'src' found, but there are 27 similar ones
+src: command not found
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ gradle build
+[0m
+[1A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [0s][m[35D[1B[1A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 5 up-to-date
+[0K
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ gradle run
+[0m
+[1A
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ cd../[K[K[K ../../
+gaffins@cf162-03:~$ ls
+CSCI141  CSCI241  Documents  eclipse-workspace	Music	  Public     typescript
+CSCI172  Desktop  Downloads  git		Pictures  Templates  Videos
+gaffins@cf162-03:~$ cd CSCI241
+gaffins@cf162-03:~/CSCI241$ gradle build
+[0m
+[1A
+[1m> Task :buildEnvironment[m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+A web-based, searchable dependency report is available by adding the [1m--scan[m option.
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgaffins@cf162-03:~/CSCI241$ gradle run
+[0m
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'CSCI241'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgaffins@cf162-03:~/CSCI241$ c[Kls
+assignment-1-spence-g  lab-1-spence-g
+gaffins@cf162-03:~/CSCI241$ cd lab[K[K[K[K[K[Kcd lab-1-spence-g
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ --[K[Kgradle run --args="0"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello 0!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ gradle[K[K[K[K[K[Kvi src/main/java/lab1/Hello.java
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;46r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[46;1H"src/main/java/lab1/Hello.java" 7L, 143C[>c[1;1H[35mpackage[m lab1;
+
+[32mpublic[m [32mclass[m Hello{
+    [32mpublic[m [32mstatic[m [32mvoid[m main(String[] args){[5;9HSystem.out.println([31m"Hello "[m +  args[[31m0[m] +  [31m"!"[m);
+    }
+}
+[94m~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll]2;Hello.java (~/CSCI241/lab-1-spence-g/src/main/java/lab1) - VIM]1;Hello.java[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H[38;5;81mpackage[m lab1;
+
+[38;5;121mpublic[m [38;5;121mclass[m Hello{
+    [38;5;121mpublic[m [38;5;121mstatic[m [38;5;121mvoid[m main(String[] args){[5;9HSystem.out.println([95m"Hello "[m +  args[[95m0[m] +  [95m"!"[m);
+    }
+}
+[94m~                                                                                                        [9;1H~                                                                                                        [10;1H~                                                                                                        [11;1H~                                                                                                        [12;1H~                                                                                                        [13;1H~                                                                                                        [14;1H~                                                                                                        [15;1H~                                                                                                        [16;1H~                                                                                                        [17;1H~                                                                                                        [18;1H~                                                                                                        [19;1H~                                                                                                        [20;1H~                                                                                                        [21;1H~                                                                                                        [22;1H~                                                                                                        [23;1H~                                                                                                        [24;1H~                                                                                                        [25;1H~                                                                                                        [26;1H~                                                                                                        [27;1H~                                                                                                        [28;1H~                                                                                                        [29;1H~                                                                                                        [30;1H~                                                                                                        [31;1H~                                                                                                        [32;1H~                                                                                                        [33;1H~                                                                                                        [34;1H~                                                                                                        [35;1H~                                                                                                        [36;1H~                                                                                                        [37;1H~                                                                                                        [38;1H~                                                                                                        [39;1H~                                                                                                        [40;1H~                                                                                                        [41;1H~                                                                                                        [42;1H~                                                                                                        [43;1H~                                                                                                        [44;1H~                                                                                                        [45;1H~                                                                                                        [m[46;88H1,1[11CAll"src/main/java/lab1/Hello.java" 7L, 143C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[46;1H[1m-- INSERT --[m[46;13H[K[46;88H1,1[11CAll[1;1H[?12l[?25h[?25l[46;88H2[2;1H[?12l[?25h[?25l[46;88H3[3;1H[?12l[?25h[?25l[46;88H4[4;1H[?12l[?25h[?25l[46;88H5[5;1H[?12l[?25h[?25l[46;90H2[5;2H[?12l[?25h[?25l[46;90H3[5;3H[?12l[?25h[?25l[46;90H4[5;4H[?12l[?25h[?25l[46;90H5[5;5H[?12l[?25h[?25l[46;90H6[5;6H[?12l[?25h[?25l[46;90H7[5;7H[?12l[?25h[?25l[46;90H8[5;8H[?12l[?25h[?25l[46;90H9[5;9H[?12l[?25h[?25l[46;90H10[5;10H[?12l[?25h[?25l[46;91H1[5;11H[?12l[?25h[?25l[46;91H2[5;12H[?12l[?25h[?25l[46;91H3[5;13H[?12l[?25h[?25l[46;91H4[5;14H[?12l[?25h[?25l[46;91H5[5;15H[?12l[?25h[?25l[46;91H6[5;16H[?12l[?25h[?25l[46;91H7[5;17H[?12l[?25h[?25l[46;91H8[5;18H[?12l[?25h[?25l[46;91H9[5;19H[?12l[?25h[?25l[46;90H20[5;20H[?12l[?25h[?25l[46;91H1[5;21H[?12l[?25h[?25l[46;91H2[5;22H[?12l[?25h[?25l[46;91H3[5;23H[?12l[?25h[?25l[46;91H4[5;24H[?12l[?25h[?25l[46;91H5[5;25H[?12l[?25h[?25l[46;91H6[5;26H[?12l[?25h[?25ln[46m([26C)[m[46;91H7[5;27H[?12l[?25h[?25l[46;91H8[5;28H[?12l[?25h[?25l([26C)[46;91H9[5;29H[?12l[?25h[?25l[46;90H30[5;30H[?12l[?25h[?25l[46;91H1[5;31H[?12l[?25h[?25l[46;91H2[5;32H[?12l[?25h[?25l[46;91H3[5;33H[?12l[?25h[?25l[46;91H4[5;34H[?12l[?25h[?25l[46;91H5[5;35H[?12l[?25h[?25l[46;91H6[5;36H[?12l[?25h[?25l[46;91H7[5;37H[?12l[?25h[?25l[46;91H8[5;38H[?12l[?25h[?25l[46;91H9[5;39H[?12l[?25h[?25l[46;90H40[5;40H[?12l[?25h[?25l[46;91H1[5;41H[?12l[?25h[?25l[46;91H2[5;42H[?12l[?25h[?25l[46;91H3[5;43H[?12l[?25h[?25ls[46m[[1C][m[46;91H4[5;44H[?12l[?25h[?25l[46;91H5[5;45H[?12l[?25h[?25l[46;91H6[5;46H[?12l[?25h[46;1H[K[5;45H[?25l[[1C][46;88H5,45[10CAll[5;45H[?12l[?25h[?25l[46;88H[K[46;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"src/main/java/lab1/Hello.java" 7L, 143C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049lgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ gradle run --args="241"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello 241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ --stacktrace
+--stacktrace: command not found
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ gradle run --stacktrace
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':run'.
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:96)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:65)
+        at org.gradle.api.internal.tasks.execution.ActionEventFiringTaskExecuter.execute(ActionEventFiringTaskExecuter.java:44)
+        at org.gradle.api.internal.tasks.execution.TimeoutTaskExecuter.execute(TimeoutTaskExecuter.java:53)
+        at org.gradle.api.internal.tasks.execution.SnapshotAfterExecutionTaskExecuter.execute(SnapshotAfterExecutionTaskExecuter.java:38)
+        at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+        at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+        at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:49)
+        at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:61)
+        at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+        at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+        at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:44)
+        at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+        at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:55)
+        at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+        at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:35)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:49)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+        at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:44)
+        at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:325)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:318)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:304)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+        at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+        at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+        at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+        at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:396)
+        at org.gradle.process.internal.DefaultJavaExecAction.execute(DefaultJavaExecAction.java:37)
+        at org.gradle.api.tasks.JavaExec.exec(JavaExec.java:79)
+        at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+        at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+        at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+        at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+        at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:704)
+        at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:671)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:117)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+        at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:106)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:85)
+        ... 35 more
+
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mgaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git add src/main/java.[K/lab1/Hello.java
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git commit -m "Attempt 2"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31msrc/main/java/lab1/.gradle/[m
+
+nothing added to commit but untracked files present
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': spence-g
+Password for 'https://spence-g@github.com': 
+Everything up-to-date
+gaffins@cf162-03:~/CSCI241/lab-1-spence-g$ exit
+exit
+
+Script done on Thu 18 Apr 2019 01:48:27 PM PDT
